@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Room Image -->
+    <ImageView
+        android:id="@+id/roomImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"/>
+
+    <!-- Room Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/roomName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/roomCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#666"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/roomPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#00796B"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/roomFeatures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <CheckBox
+                android:id="@+id/serviceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spa" />
+
+            <CheckBox
+                android:id="@+id/serviceThreeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poolside Cabanas" />
+
+
+            <CheckBox
+                android:id="@+id/serviceTowView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guided beach tours" />
+
+        </LinearLayout>
+
+        <!-- Booking Button -->
+        <Button
+            android:id="@+id/bookRoomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Now"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFF"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</LinearLayout>
