@@ -15,7 +15,6 @@
 
 ## 🖼️ Screenshots  
 
-## 🖼️ Screenshots  
 
 | **Home** | **Register** | **Login** |  
 |----------|--------------|----------|  
