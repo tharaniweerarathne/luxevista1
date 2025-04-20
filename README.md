@@ -32,7 +32,8 @@
 - **Backend**: Local Database (SQLite or Room for persistence)  
 - **Authentication**: Custom email/password login system  
 - **Navigation**: Android Navigation Component  
-- **UI/UX**: XML for layouts, Material Design Components for UI elements  
+- **UI/UX**: XML for layouts, Material Design Components for UI elements
+- **IDE**: Android Studio  
 
 ---
 
